@@ -8,17 +8,16 @@ After you create the repository, the URL of your web page would be something lik
 You can also try to clone any public repositories on github.com
 
 ## 1.2 add and commit
-```
-#You can propose changes (add it to the Index) using
-$git add <filename>
-#This is the first step in the basic git workflow.
+// You can propose changes (add it to the Index) using
+`$git add <filename>`
+// This is the first step in the basic git workflow.
 
-#To see changed and added files
-$git status
+// To see changed and added files
+`$git status`
 
-#To actually commit these changes use
-$git commit -m "Commit message"
-```
+// To actually commit these changes use
+`$git commit -m "Commit message"`
+
 
 ## 1.3 Pushing changes
 ```
