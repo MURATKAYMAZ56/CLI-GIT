@@ -12,3 +12,4 @@ This repository contains teaching metarials regarding CLI and Git control versio
 ### Todo 
 - add grep, find, commands
 - make a script file and run it
+- how to make alias
