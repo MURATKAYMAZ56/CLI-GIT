@@ -148,3 +148,20 @@ grep -v "text" file.txt
  grep -ir "text" . 
 
 ```
+
+
+# find command
+is used to find files and directories on a disk. 
+
+### Syntax
+~~~
+find [path...] [expression]
+~~~
+
+```
+-name : to find file named xxx
+find . -name "fileName"
+-perm  : find files with desired permission
+find . -perm 700
+
+```
