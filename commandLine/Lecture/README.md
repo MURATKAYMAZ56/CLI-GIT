@@ -127,4 +127,24 @@ When you are in vim `a` and `i` will put you in insert mode and `esc` will take 
 `<ESC> p` = paste what you last copied
 
 Many commands can be preceeded by a number to repeat their action. For example, `<ESC> 4yy` copies 4 lines starting from where you entered the command. 
+# Grep command
+is used for searching and manipulating text patterns within files.
+### Syntax of grep Command in Unix/Linux
 
+The basic syntax of the `grep` command is as follows:
+~~~
+grep  [options] pattern [files]
+~~~
+
+
+```
+-i (incase sensitive)
+grep -i "text" file.txt
+
+- v display that not matches
+grep -v "text" file.txt
+
+-r (recursively) search recursively
+ grep -ir "text" . 
+
+```
