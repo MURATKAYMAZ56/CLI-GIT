@@ -28,13 +28,11 @@ The square brackets are not supposed to be typed.
 
 `wc` - show the word count of a file (prints number of lines, words and characters in the file)
 
-`CTRL-c` - stop what is happening on the command line 
-
-`CTRL-z` - hard stop what is happening on the command line 
-
 `mkdir` - create a new directory
 
 `touch` - create an empty file
+
+`CTRL-c` - stop what is happening on the command line 
 
 ## Output redirection
 
