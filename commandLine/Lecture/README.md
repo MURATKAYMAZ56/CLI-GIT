@@ -150,18 +150,57 @@ grep -v "text" file.txt
 ```
 
 
-# find command
-is used to find files and directories on a disk. 
+# Understanding and Using Aliases
+ 
+-  what aliases are: **shortcuts** or **alternative** **names** **for** **commands** or command sequences.
+-  purpose of aliases: to **simplify** and **speed** **up** **command** line tasks by reducing the need for typing long or frequently used commands.
 
-### Syntax
-~~~
-find [path...] [expression]
-~~~
+### Creating Aliases
+```
+alias ll='ls -l'
 
 ```
--name : to find file named xxx
-find . -name "fileName"
--perm  : find files with desired permission
-find . -perm 700
+
+- make aliases permanent by adding them to shell configuration files (e.g., .bashrc, .zshrc).
+
+Some examples of  aliases
+
+```
+alias c=clear: Clears the terminal screen.
+alias gst='git status': Shortcut for checking the status of a Git repository.
+alias ..='cd ..': Shortcut for navigating up one directory level.
+
+
+```
+
+# Introduction to Scripting 
+is the process of writing and executing a series of commands in a sequential manner.
+- Create a file named myscript.sh , add below  then run it. 
+```
+#!/bin/bash
+
+# This is a simple Bash script
+echo "Hello, world!"
+ls -l
+pwd
+
+
+```
+
+**Saving and Executing the Script**
+```
+chmod +x myscript.sh
+
+
+```
+
+
+**Run the script file**
+```
+./myscript.sh
+
+or
+ bash myscript.sh
+
 
 ```
